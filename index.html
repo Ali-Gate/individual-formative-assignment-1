@@ -29,22 +29,22 @@
 <!---->
 <body>
 
-    <!--header-->
-<header id="home" class="py-3">
-    <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container d-flex justify-content-between align-items-center mx-3">
-            <span class="d-flex align-items-left">
-                <img src="./assets/images/1horizonlogocolour.png" alt="OneHorizon Logo" class="me-2" style="height: 40px;">
-                <h1 class="m-0">OneHorizon</h1>
-            </span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #BBBE64;">
+        <div class="container-fluid d-flex mx-3">
+            <a  id="logo" class="navbar-brand" href="index.html">
+				<img src="./assets/images/1horizonlogocolour.png" alt="OneHorizon Logo" class="d-inline-block align-text-top" height="40px;">
+                OneHorizon
+			</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-              </li>          <a class="nav-link" href="#home">Home</a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#what">What is D&I</a>
@@ -62,19 +62,7 @@
             </div>
         </div>
     </nav>
-</header>
 
-        
-
-
-
-
-
-
-
-
-       
-    </header>
 
     <!--hero-->
     <section class="hero position-relative text-white text-center d-flex align-items-center justify-content-center" 
@@ -91,11 +79,11 @@
     <main class="container py-5">
     <!--main content from home page-section-->
     <!--welcome section-->
-        <section class="py-2 mx-0" style="background-color: #7FEBE7;">
+        <section class="py-1  mx-0" style="background-color: #7FEBE7;">
             <div class="welcome py-5 text-center">
                 <div class="container">
                     <h2>Welcome to our Diversity and Inclusion Hub!</h2>
-                    <p class="lead">Hi there! Welcome to our space where diversity is celebrated and inclusion is our mission. Here, we believe in the power of our differences and the strength of unity.
+                    <p class="lead mt-4 mx-4">Hi there! Welcome to our space where diversity is celebrated and inclusion is our mission. Here, we believe in the power of our differences and the strength of unity.
                         Diversity isn't just a concept; it's our reality. We embrace the unique qualities that each person brings to our community. Inclusion means creating a space where everyone feels welcome, respected, and supported to thrive.
                     </p>
                 </div>
@@ -103,162 +91,211 @@
         </section>
 
     <!--D&I introduction cards-->
-        <section>
-            
-            <div class="row">
-            
-                <div id="what" class="col-md-6 col-lg-7 mb-4">
-                    <div class="card">
-                        <img src="./assets/images/diversity.png" class="card-img-top" alt="diverse community at a community centre" style="object-fit: cover; aspect-ratio: 5 / 3;">
-                        <div class="card-body">
-                            <h5 class="card-title">What is Diversity?</h5>
-                            <p class="card-text">Diversity is the celebration of our differences—whether they be related to race, gender, sexual orientation, age, disability, religion, or any other characteristic that makes each of us unique. It’s about acknowledging and respecting these differences and understanding that they enrich our lives and our communities.</p>
-                            <a href="#" class="btn btn-light">Learn More</a>
+    <section>
+    <!--Intro diversity card-->                
+            <div class="row mt-5">            
+                <div id="what" class="col-md-10 col-lg-10 mb-4">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./assets/images/diversity.png" class="img-fluid rounded-start" alt="diverse community gathering at a community centre">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">What is Diversity?</h5>
+                                    <p class="card-text">Diversity is the celebration of our differences—whether they be related to race, gender, sexual orientation, age, 
+                                        disability, religion, or any other characteristic that makes each of us unique. It’s about acknowledging and respecting these differences
+                                        and understanding that they enrich our lives and our communities.</p>
+                                    <a href="#" class="btn btn-light">Learn More</a>
+                                </div>
+                            </div>  
+                        </div>    
+                    </div>
+                </div>
+            </div>
+  <!--Intro inclusion card-->
+            <div class="row mt-5">
+                <div id="what" class="col-md-2 col-lg-2 mb-4"></div>
+                <div id="what" class="col-md-10 col-lg-10 mb-4">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">What is Inclusion?</h5>
+                                    <p class="card-text">Inclusion means creating an environment where all individuals feel welcomed, respected, and supported. It’s about ensuring that
+                                        everyone has equal access to opportunities and resources, and that their contributions are valued. Inclusion is more than just being present; it’s
+                                        about being fully and authentically engaged in every aspect of life.</p>
+                                    <a href="#" class="btn btn-light">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./assets/images/inclusion.png" class="img-fluid rounded-start" alt="Inclusion at the workplace. Depicts disabled person within a team working
+                                at a reception desk.">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-5 mb-4">
-                </div>              
             </div>
-
-        <div class="row">
-  
-            <div class="col-md-6 col-lg-5 mb-4">
-            </div>          
-            <div class="col-md-6 col-lg-7 mb-4">
-                <div class="card">
-                    <img src="./assets/images/inclusion.png" class="card-img-top" alt="Inclusion at the workplace. Depicts disabled person within a team working at a reception desk." style="object-fit: cover; aspect-ratio: 5 / 3; object-position: top;">
-                    <div class="card-body">
-                        <h5 class="card-title">What is Inclusion?
-                        </h5>
-                        <p class="card-text">Inclusion means creating an environment where all individuals feel welcomed, respected, and supported. It’s about ensuring that everyone has equal access to opportunities and resources, and that their contributions are valued. Inclusion is more than just being present; it’s about being fully and authentically engaged in every aspect of life.
-                        </p>
-                        <a href="#" class="btn btn-light">Learn More</a>
-                    </div>
-                </div>
-            </div> 
-        </div>
-        </section>
+    </section>
 
     <!--WHY? page-section content-->   
 
     <!--Intro to WHY? section-->
-    <section id="why" class="mx-0 position-relative"  style="color: #ffffff; background-image: url('./assets/images/disability.png'); 
-    background-size: cover; background-position: center; background-repeat: no-repeat;" aria-label="Background section header image: Disability in sports">
+    <section id="why" class="mx-0 position-relative" style="color: #ffffff; background-image: url('./assets/images/disability.png'); 
+        background-size: cover; background-position: center; background-repeat: no-repeat;"
+        aria-label="Background section header image: Disability in sports">
         <div class="overlay position-absolute w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
         <div class="container position-relative"></div>
         <div class="container">
-    <div class="welcome py-5 text-center">
-            <h2>Benefits of diversity and inclusion?</h2>
-            <p class="lead">What makes diversity and inclusion so crucial? Explore this section to discover surprising benefits that transform our world.
-            </p>
+            <div class="section-banner py-5 text-center">
+                <h2>Benefits of diversity and inclusion?</h2>
+                <p class="lead">What makes diversity and inclusion so crucial? Explore this section to discover surprising
+                    benefits that transform our world.
+                </p>
+            </div>
         </div>
-    </div>
-    </section> 
-
+    </section>
+    
     <!--WHY? -->
     <section class="py-2 mx-0">
-    <div class="row"> 
-<!--D&I in the Community --> 
-        <div class="col-12 mb-4">
-            <div class="p-4" style="background-color: #bbbe64;">
-                <h1>Community</h1>
+        <div class="row">
+            <!--D&I in the Community -->
+            <div class="col-12 mb-4">
+                <div class="p-4" style="background-color: #bbbe64;">
+                    <h1>Community</h1>
+                </div>
             </div>
-        </div> 
-        <div class="col-md-5 mb-4">
-            <div class="p-4" style="background-color: #7FEBE7;">
-                <h5">Why is Diversity and Inclusion Important in the Community?</h5>
-                <p>In our communities, diversity and inclusion are essential for creating a harmonious and supportive environment where everyone can thrive. By embracing our differences, we build stronger, more resilient communities that are enriched by the variety of perspectives and experiences each member brings. Diversity and inclusion promote social cohesion, reduce inequality, and ensure that everyone has a voice and is treated with respect and dignity.
-                </p>
+            <div class="col-md-5 mb-4">
+                <div class="p-4" style="background-color: #7FEBE7;">
+                    <h5">Why is Diversity and Inclusion Important in the Community?</h5>
+                        <p>In our communities, diversity and inclusion are essential for creating a harmonious and
+                            supportive environment where everyone can thrive. By embracing our differences, we build
+                            stronger, more resilient communities that are enriched by the variety of perspectives and
+                            experiences each member brings. Diversity and inclusion promote social cohesion, reduce
+                            inequality, and ensure that everyone has a voice and is treated with respect and dignity.
+                        </p>
+                </div>
+            </div>
+            <div class="col-md-7 mb-4">
+                <div class="p-4" style="background-color: #7FEBE7;">
+                    <h5 class="card-title">Benefits of Diversity and Inclusion in the Community</h5>
+                    <ol>
+                        <li><strong>Social Cohesion:</strong> A diverse and inclusive community fosters mutual respect and
+                            understanding among its members, leading to stronger social bonds.</li>
+                        <li><strong>Reduced Inequality:</strong> By addressing systemic barriers and promoting equity, we
+                            create opportunities for all individuals to succeed, regardless of their background.</li>
+                        <li><strong>Innovation and Creativity:</strong> Diversity brings a wide range of ideas and
+                            perspectives, driving innovation and creative solutions to community challenges.</li>
+                        <li><strong>Improved Well-being:</strong> Inclusive communities provide support and a sense of
+                            belonging, which enhances the mental and emotional well-being of all members.</li>
+                        <li><strong>Greater Participation:</strong> When everyone feels valued and included, community
+                            members are more likely to engage and contribute to community activities and decision-making.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <!--D&I in the Workplace -->
+            <div class="col-12 mb-4">
+                <div class="p-4" style="background-color: #bbbe64;">
+                    <h1>Workplace</h1>
+                </div>
+            </div>
+            <div class="col-md-5 mb-4">
+                <div class="p-4" style="background-color: #7FEBE7;">
+                    <h5>Why is Diversity and Inclusion Important in the Workplace?</h5>
+                    <p>In the workplace, diversity and inclusion are crucial for creating an environment where all employees
+                        can succeed and feel valued. A diverse workforce brings a wealth of perspectives, ideas, and
+                        experiences that drive innovation, improve decision-making, and enhance overall organizational
+                        performance. Inclusion ensures that every employee feels respected, supported, and empowered to
+                        contribute their best work.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-7 mb-4">
+                <div class="p-4" style="background-color: #7FEBE7;">
+                    <h5 class="card-title">Benefits of Diversity and Inclusion in the Workplace:</h5>
+                    <ol>
+                        <li><strong>Increased Creativity and Innovation:</strong> Diverse teams bring different perspectives
+                            and ideas, leading to more creative and innovative solutions. </li>
+                        <li><strong>Better Decision-Making:</strong> A variety of viewpoints and experiences contribute to
+                            more informed and effective decision-making processes.</li>
+                        <li><strong>Improved Employee Engagement:</strong> Inclusive workplaces foster a sense of belonging
+                            and respect, which boosts employee morale, engagement, and productivity.</li>
+                        <li><strong>Attraction and Retention of Talent:</strong> Organizations that prioritize diversity and
+                            inclusion are more attractive to top talent and are better able to retain their employees.</li>
+                        <li><strong>Enhanced Reputation:</strong> Companies that demonstrate a commitment to diversity and
+                            inclusion build a positive reputation, which can lead to increased customer loyalty and business
+                            success.</li>
+                    </ol>
+                </div>
             </div>
         </div>
-        <div class="col-md-7 mb-4">
-            <div class="p-4" style="background-color: #7FEBE7;">
-                <h5 class="card-title">Benefits of Diversity and Inclusion in the Community</h5>
-                <ol>
-                    <li><strong>Social Cohesion:</strong> A diverse and inclusive community fosters mutual respect and understanding among its members, leading to stronger social bonds.</li>
-                    <li><strong>Reduced Inequality:</strong> By addressing systemic barriers and promoting equity, we create opportunities for all individuals to succeed, regardless of their background.</li>
-                    <li><strong>Innovation and Creativity:</strong> Diversity brings a wide range of ideas and perspectives, driving innovation and creative solutions to community challenges.</li>
-                    <li><strong>Improved Well-being:</strong> Inclusive communities provide support and a sense of belonging, which enhances the mental and emotional well-being of all members.</li>
-                    <li><strong>Greater Participation:</strong> When everyone feels valued and included, community members are more likely to engage and contribute to community activities and decision-making.</li>
-                </ol>
-            </div>
-        </div>
-<!--D&I in the Workplace --> 
-        <div class="col-12 mb-4">
-            <div class="p-4" style="background-color: #bbbe64;">
-                <h1>Workplace</h1>
-            </div>
-        </div> 
-        <div class="col-md-5 mb-4">
-            <div class="p-4" style="background-color: #7FEBE7;">
-                <h5>Why is Diversity and Inclusion Important in the Workplace?</h5>
-                <p>In the workplace, diversity and inclusion are crucial for creating an environment where all employees can succeed and feel valued. A diverse workforce brings a wealth of perspectives, ideas, and experiences that drive innovation, improve decision-making, and enhance overall organizational performance. Inclusion ensures that every employee feels respected, supported, and empowered to contribute their best work.
-                </p>
-            </div>
-        </div>
-        <div class="col-md-7 mb-4">
-            <div class="p-4" style="background-color: #7FEBE7;">
-                <h5 class="card-title">Benefits of Diversity and Inclusion in the Workplace:</h5>
-                <ol>
-                    <li><strong>Increased Creativity and Innovation:</strong> Diverse teams bring different perspectives and ideas, leading to more creative and innovative solutions.                    </li>
-                    <li><strong>Better Decision-Making:</strong> A variety of viewpoints and experiences contribute to more informed and effective decision-making processes.</li>
-                    <li><strong>Improved Employee Engagement:</strong> Inclusive workplaces foster a sense of belonging and respect, which boosts employee morale, engagement, and productivity.</li>
-                    <li><strong>Attraction and Retention of Talent:</strong> Organizations that prioritize diversity and inclusion are more attractive to top talent and are better able to retain their employees.</li>
-                    <li><strong>Enhanced Reputation:</strong> Companies that demonstrate a commitment to diversity and inclusion build a positive reputation, which can lead to increased customer loyalty and business success.</li>
-                </ol>
-            </div>
-        </div>        
-    </div>
     </section>
-
+    
     <!--HOW? page-section content -->
-
+    
     <!--Intro to HOW? section-->
     <section id="how" class="py-2 mx-0" style="background-color: #7FEBE7;">
-    <div class="welcome py-5 text-center">
-        <div class="container">
-            <h2>Towards a more inclusive world</h2>
-            <p class="lead">Eager to make a difference? Our lively guide to diversity and inclusion will inspire action and foster a welcoming workplace. Let's create an inclusive and vibrant environment together!
-            </p>
+        <div class="welcome py-5 text-center">
+            <div class="container">
+                <h2>Towards a more inclusive world</h2>
+                <p class="lead">Eager to make a difference? Our lively guide to diversity and inclusion will inspire action
+                    and foster a welcoming workplace. Let's create an inclusive and vibrant environment together!
+                </p>
+            </div>
         </div>
-    </div>   
     </section>
     <!--HOW? -->
     <section class="py-2 mx-0">
-    <div class="row">  
-        <div class="col-12 mb-4">
-            <div class="p-4" style="background-color: #bbbe64;">
-                <h1>Our Guide to D&I</h1>
+        <div class="row">
+            <div class="col-12 mb-4">
+                <div class="p-4" style="background-color: #bbbe64;">
+                    <h1>Our Guide to D&I</h1>
+                </div>
             </div>
-        </div>
-        <div class="col-12 mb-4">
-            <div class="p-4" style="background-color: #7FEBE7;">            
-                <ol>
-                    <li><strong>Listen and Learn:</strong> A diverse and inclusive community fosters mutual respect and understanding among its members, leading to stronger social bonds.</li>
-                    <li><strong>Educate Yourself and Others:</strong> By addressing systemic barriers and promoting equity, we create opportunities for all individuals to succeed, regardless of their background.</li>
-                    <li><strong>Create Inclusive Policies:</strong> Diversity brings a wide range of ideas and perspectives, driving innovation and creative solutions to community challenges.</li>
-                    <li><strong>Lead by Example:</strong> Inclusive communities provide support and a sense of belonging, which enhances the mental and emotional well-being of all members.</li>
-                    <li><strong>Advocate for Accessibility:</strong> Inclusive communities provide support and a sense of belonging, which enhances the mental and emotional well-being of all members.</li>
-                    <li><strong>Cross Cultural Barriers:</strong>
-                        <ul>
-                            <li><strong>Reach Out:</strong>Make an effort to connect with people from different cultural backgrounds.</li>
-                            <li><strong>Ask and Listen:</strong>Ask them about their experiences and listen actively without judgment.</li>
-                            <li><strong>Share and Learn:</strong>Share your own experiences and learn from each other’s perspectives to build mutual understanding and respect.</li>
-                        </ul> 
-                    </li>
-                    <li><strong>Support Diverse Voices:</strong> When everyone feels valued and included, community members are more likely to engage and contribute to community activities and decision-making.</li>
-                    <li><strong>Take Action:</strong> Inclusive communities provide support and a sense of belonging, which enhances the mental and emotional well-being of all members.</li>
-                    <li><strong>Be an Ally:</strong> Inclusive communities provide support and a sense of belonging, which enhances the mental and emotional well-being of all members.</li>
-                    <li><strong>Embrace Change:</strong> Inclusive communities provide support and a sense of belonging, which enhances the mental and emotional well-being of all members.</li>
-                </ol>
-                <p class="p-3">By following these steps, you can contribute to creating a more inclusive and equitable environment where everyone feels valued and supported.</p>
+            <div class="col-12 mb-4">
+                <div class="p-4" style="background-color: #7FEBE7;">
+                    <ol>
+                        <li><strong>Listen and Learn:</strong> A diverse and inclusive community fosters mutual respect and
+                            understanding among its members, leading to stronger social bonds.</li>
+                        <li><strong>Educate Yourself and Others:</strong> By addressing systemic barriers and promoting
+                            equity, we create opportunities for all individuals to succeed, regardless of their background.
+                        </li>
+                        <li><strong>Create Inclusive Policies:</strong> Diversity brings a wide range of ideas and
+                            perspectives, driving innovation and creative solutions to community challenges.</li>
+                        <li><strong>Lead by Example:</strong> Inclusive communities provide support and a sense of
+                            belonging, which enhances the mental and emotional well-being of all members.</li>
+                        <li><strong>Advocate for Accessibility:</strong> Inclusive communities provide support and a sense
+                            of belonging, which enhances the mental and emotional well-being of all members.</li>
+                        <li><strong>Cross Cultural Barriers:</strong>
+                            <ul>
+                                <li><strong>Reach Out:</strong>Make an effort to connect with people from different cultural
+                                    backgrounds.</li>
+                                <li><strong>Ask and Listen:</strong>Ask them about their experiences and listen actively
+                                    without judgment.</li>
+                                <li><strong>Share and Learn:</strong>Share your own experiences and learn from each other’s
+                                    perspectives to build mutual understanding and respect.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Support Diverse Voices:</strong> When everyone feels valued and included, community
+                            members are more likely to engage and contribute to community activities and decision-making.
+                        </li>
+                        <li><strong>Take Action:</strong> Inclusive communities provide support and a sense of belonging,
+                            which enhances the mental and emotional well-being of all members.</li>
+                        <li><strong>Be an Ally:</strong> Inclusive communities provide support and a sense of belonging,
+                            which enhances the mental and emotional well-being of all members.</li>
+                        <li><strong>Embrace Change:</strong> Inclusive communities provide support and a sense of belonging,
+                            which enhances the mental and emotional well-being of all members.</li>
+                    </ol>
+                    <p class="p-3">By following these steps, you can contribute to creating a more inclusive and equitable
+                        environment where everyone feels valued and supported.</p>
+                </div>
             </div>
+    
         </div>
-  
-    </div>
     </section>
-
+    
     <!--Contact page-section content-->
     <section id="contact" class="py-5" style="background-color: #BBBE64;">
         <div class="container">
@@ -280,10 +317,13 @@
             </form>
         </div>
     </section>
-
-                
+    
+    
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0737a17f1d.js" crossorigin="anonymous"></script>
-</body>
-</html>
+    </body>
+    
+    </html>
