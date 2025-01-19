@@ -70,8 +70,30 @@ As a page owner, I want to create an attractive homepage with a clear introducti
 
 **Index html**
 
+![Index page desktop wireframe](/assets/images/readme_images/wireframe_desktop.PNG "Index page desktop wireframe")
+![Index page tablet wireframe](/assets/images/readme_images/wireframe_tablet.PNG "Index page tablet wireframe")
+![Index page phone wireframe](/assets/images/readme_images/wireframe_phone.PNG "Index page desktop wireframe")
 
-Wireframes for other pages on future sprints:
+
+
+
+**Wireframes for other pages on future sprints:**
+
+Benefits.html
+
+
+
+![benefits page](/assets/images/readme_images/benefits_html.PNG "Benefits page wireframe")
+
+**Guide.html**
+
+![guide page](/assets/images/readme_images/guide_html.PNG "Guide page wireframe")
+
+**Contact.html**
+
+![contact page](/assets/images/readme_images/contact_html.PNG "Contact page wireframe")
+
+
 
 
 Website Features:
