@@ -3,7 +3,7 @@
 
 ## **Website's name: One Horizon**
 
-## **Introduction**
+# **Introduction**
 
 ### **Project’s purpose**
 
@@ -17,7 +17,7 @@ The objective of the website is to provide key information about diversity and i
 
 During planning. other features were considered to  be implemented in further sprints.
 
-## **Project’s Planning**
+# **Project’s Planning**
 
 
 UX experience was taken into consideration for the design of the Project, making use of user stories to create a list of specific requirements and tasks which I elaborated into a project plan. I then filtered them down to get a brief that would fit the MPV's. 
@@ -96,8 +96,9 @@ Benefits.html
 
 
 
-###  **Website Features:**
+#  **Website Features:**
 
+- Attractive design to engage user
 - Header
 - Logo and Organisation’s name
 - NavBar
@@ -118,11 +119,11 @@ Benefits.html
 
 ### **Content:**
 
-**Header:**
+- Header:
 
-- Features logo company name and navigation bar
+    -  Features logo company name and navigation bar
 
-- Attractive design to engage user
+    
 - Hero  section: featuring a motivational sentence and image to further engage and give meaning to the content.
 
  - Intro section: presents the key concepts to the viewer in a clear, visually appealing manner using banners with background faded images, cards and visual aids to structure the content.
@@ -134,7 +135,7 @@ Benefits.html
 - Footer:  footer’s design matches the header and some other visual elements in the page. 
 
 
-## **Deployed Website **
+# **Deployed Website**
 
 **Desktop view**
 
@@ -157,21 +158,75 @@ Benefits.html
 ![Phone view ](/assets/images/Deploy_phone.PNG "LaptPhoneop view")
 
 
+# **Technologies**
+
+### **Using Copilot to generate content**
+
+Copilot's browser website was used to generate the literature and the images of the website.
+
+
+### **Using GitHub Copilot**
+
+During the development of this project, Gitpod Copilot was an invaluable tool. It assisted in generating code to structure the page's content and styling it with the help of boot strap. It also assisted suggesting improvements, and providing quick solutions to coding challenges. This allowed me to focus more on the design and functionality aspects of the project, creating a positive overall development experience.
+
+### **Using Bootstrap**
+Bootstrap was used both, with the assistance of Copilot and also manually by checking the documentation and implementing code as and when needed.### 
+
+### **Other technologies used:**
+
+- **Google Fonts**
+- **Coolors**
+- **W3C Validator**
+- **DevTools**
+- **Lighthouse**
+- **Balsamiq Wireframes**
+
 
 ## **Testing**
 
 **Manual Testing**
-Throughout the building process the fuinctioning of the website was checked thoroughly, and debugged as conflict arose. 
-Issues like overflowing, 
 
-W3C
+Throughout the development process, the website was rigorously tested manually. Each feature was checked for functionality, and any issues encountered were promptly debugged. This included ensuring that all links worked correctly, forms submitted data as expected, and the layout was consistent across different screen sizes. Specific attention was given to resolving issues such as content overflow and ensuring that interactive elements were responsive.
 
-potential future features
+**W3C Validation**
+
+The HTML and CSS code were validated using the W3C Markup Validation Service and W3C CSS Validation Service, respectively. This helped identify and correct any syntax errors, ensuring that the code adhered to web standards and best practices.
+
+**DevTools**
+
+Browser DevTools were extensively used to inspect and debug the website. This included checking the DOM structure, monitoring network requests, and analyzing performance. DevTools were also used to test the responsiveness of the design by simulating different device screen sizes and orientations.
+
+**Lighthouse**
+
+Google Lighthouse was used to audit the website for performance, accessibility, best practices, and SEO. The tool provided valuable insights and recommendations, which were implemented to improve the overall quality of the website. Key metrics such as load time, accessibility scores, and adherence to best practices were optimized based on Lighthouse reports.
+
+![Lighthouse report ](/assets/images/readme_images/lighthouse.png "Laptop view")
 
 
+## **Credits**
 
-learn more modals or expandable, contact form: Contact section:  provides a contact form for the user to reach out and  encouraging message for them to do so. it uses banners with background images, cards and visual aids to structure the content. external links, further consultancy, education and training and support to members of minority groups.
+### **Content and Inspiration**
+- Inspiration for this project were derived from various online resources, including articles and guidelines on diversity and inclusion as well as my work experience working with vulnerable individuals.
+
+### **Images**
+- All images used in this project were sourced from [Copilot](https://copilot.microsoft.com/chats/)
 
 
+### **Fonts**
+- Fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
+### **Tools and Libraries**
+- This project utilized [Bootstrap](https://getbootstrap.com/) for responsive design and layout.
+- Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/).
 
+### **Acknowledgements**
+- Special thanks to the instructors and peers at Code Institute for their guidance and support throughout this project.
+- Thanks to Copilot for assisting in code generation and providing valuable suggestions during development.
+- Gratitude to the developers and contributors of the tools and libraries used in this project.
+
+### **Additional Resources**
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [Coolors](https://coolors.co/) for color palette generation.
+- [DevTools](https://developer.chrome.com/docs/devtools/) for debugging and testing.
