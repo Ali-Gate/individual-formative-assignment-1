@@ -15,14 +15,13 @@ It’s also an objective to test and validate the project using validators as W3
 
 The objective of the website is to provide key information about diversity and inclusion in the workplace/community for an unacquainted public in order to raise awareness and provide basic guidance to the public to promote such values and take action (this is for it’s MVP version).
 
-During the planning period other features came up which could be implemented in further sprints as consultancy, education and training and support to members of minority groups.
-
+During planning. other features were considered to  be implemented in further sprints.
 
 ## **Project’s Planning**
 
 
-UX experience was aken into consideration the Project requirement I used user stories to create a list of specific requirements and tasks which I elaborated into a project plan. I then filtered them down to get a brief that would fit the MPV's. 
-Once this was achieved I moved on to create wireframes depicting an ideation for a multi-page website layout. However due to the limitations of the project's scope for this sprint and time, everything has been build into a single page. 
+UX experience was taken into consideration for the design of the Project, making use of user stories to create a list of specific requirements and tasks which I elaborated into a project plan. I then filtered them down to get a brief that would fit the MPV's. 
+Once this was achieved I moved on to create wireframes depicting an ideation for a multi-page website layout. However due to the limitations of the project's scope for this sprint and time, everything has been built into a single page. 
 
 ### **Project’s requirements**
 
@@ -72,8 +71,9 @@ As a page owner, I want to create an attractive homepage with a clear introducti
 
 ![Index page desktop wireframe](/assets/images/readme_images/wireframe_desktop.PNG "Index page desktop wireframe")
 ![Index page tablet wireframe](/assets/images/readme_images/wireframe_tablet.PNG "Index page tablet wireframe")
-![Index page phone wireframe](/assets/images/readme_images/wireframe_phone.PNG "Index page desktop wireframe")
-
+![Index page phone wireframe](/assets/images/readme_images/wireframe_phone.PNG "Index page desktop wireframe")  
+  
+    
 
 
 
@@ -96,43 +96,82 @@ Benefits.html
 
 
 
-Website Features:
+###  **Website Features:**
 
-Header
-Logo and Organisation’s name
-NavBar: 
-Collapsable toggle for smaller screens
-Hero section
-Smaller hero style banners for each topic/section with illustrations to support content
-Visual identifiers smaller sections
-Cards to present key concept (they have a learn more button to which I plan to add modals to provide further information)
-Flexbox
-Contact form
-Color palette
-Page navigation links at the end of each section to return to menu
-CSS inline, internal (which then moved to style.css) and external file
-Bootstrap generated code
-Font-awesome
-Google Fonts
-
-
-Content:
-
-Header:
-Features logo company name and navigation bar.  attractive design to engage with user
- Hero  section:  features a Motivational  sentence to further engage and give meaning to the content
- intro section:   presents the key concepts  to the viewer with an option to expand into more detail information.  it uses banners with background images, cards and visual aids to structure the content.
- Benefits section:   Presents the user with a comprehensible explanation of why it is important and the benefits of implementing diversity and inclusion. it uses banners with background images, cards and visual aids to structure the content.
-
-Guide section:  Presents  the viewer  with an easy to follow set of practices  and encourages that user to take action. it uses banners with background images, cards and visual aids to structure the content.
-
-Contact section:  provides a contact form for the user to reach out and  encouraging message for them to do so. it uses banners with background images, cards and visual aids to structure the content.
-
-Footer:  footer’s design matches the header and some other visual elements in the page. 
+- Header
+- Logo and Organisation’s name
+- NavBar
+- Collapsable toggle for smaller screens
+- Hero section
+- Smaller hero style banners for each topic/section with illustrations to support content
+- Visual identifiers smaller sections
+- Cards to present key concept (they have a learn more button to which I plan to add modals to provide further information)
+- Flexbox
+- Contact form
+- Color palette
+- Page navigation links at the end of each section to return to menu
+- CSS inline, internal (which then moved to style.css) and external file
+- Bootstrap generated code
+- Font-awesome
+- Google Fonts
 
 
+### **Content:**
 
-Deployed Website 
+**Header:**
+
+- Features logo company name and navigation bar
+
+- Attractive design to engage user
+- Hero  section: featuring a motivational sentence and image to further engage and give meaning to the content.
+
+ - Intro section: presents the key concepts to the viewer in a clear, visually appealing manner using banners with background faded images, cards and visual aids to structure the content.
+
+ - Benefits section: presents the user with a comprehensible explanation of the importance and the benefits of implementing diversity and inclusion. It uses lists to emphasize content, banners with background images, cards and visual aids to provide structure
+
+- Guide section:  Presents  the viewer  with an easy to follow, listed set of practices and encourages that user to take action step by step. It uses banners with background images, cards and visual aids to structure the content.
+
+- Footer:  footer’s design matches the header and some other visual elements in the page. 
+
+
+## **Deployed Website **
+
+**Desktop view**
+
+![Desktop view 1. Landing view](/assets/images/Deploy_desk.PNG "Desktop view 1")
+
+![Desktop view 2. Introduction to D&I](/assets/images/Deploy_desk2.PNG "Desktop view 2.Introduction to D&I")
+
+![Desktop view 3. Benefits of D&I](/assets/images/Deploy_desk3.PNG "Desktop view 3. Benefits of D&I")
+
+**Laptop view**
+
+![laptop view ](/assets/images/Deploy_laptop.PNG "Laptop view")
+
+**Tablet View**
+
+![Tablet view ](/assets/images/deploy_tablet.PNG "Tablet view")
+
+**Phone View**
+
+![Phone view ](/assets/images/Deploy_phone.PNG "LaptPhoneop view")
+
+
+
+## **Testing**
+
+**Manual Testing**
+Throughout the building process the fuinctioning of the website was checked thoroughly, and debugged as conflict arose. 
+Issues like overflowing, 
+
+W3C
+
+potential future features
+
+
+
+learn more modals or expandable, contact form: Contact section:  provides a contact form for the user to reach out and  encouraging message for them to do so. it uses banners with background images, cards and visual aids to structure the content. external links, further consultancy, education and training and support to members of minority groups.
+
 
 
 
